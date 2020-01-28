@@ -1,0 +1,42 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "max-len": [
+      1,
+      120,
+      2,
+      {
+        "ignoreComments": true
+      }
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "consistent-return": "error",
+    "semi": [
+      2,
+      "always"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ]
+  },
+  // Environment
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}  

@@ -1,0 +1,16 @@
+.idea/
+.DS_Store
+node_modules/
+
+# Generated files
+**/public/js
+**/public/index.html
+**/public/*style.css
+**/public/*style.*.css
+
+# Cypress generated files
+**/cypress/plugins
+**/cypress/screenshots/
+**/cypress/videos/
+
+test-results/
